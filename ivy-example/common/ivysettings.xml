@@ -5,7 +5,7 @@
   <credentials host="localhost" realm="Artifactory Realm" username="admin" passwd="password"/>
   <resolvers>
     <chain name="main">
-      <ibiblio name="public" m2compatible="true" root="http://10.138.0.3:12359/artifactory/ivy-dev" />
+      <ibiblio name="artifactory" m2compatible="true" root="http://10.138.0.3:12359/artifactory/ivy-dev" />
     </chain>
   </resolvers>
 </ivy-settings>
