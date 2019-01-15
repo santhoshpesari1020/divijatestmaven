@@ -7,11 +7,7 @@
     <chain name="main">
       <url name="public" m2compatible="true">
         <artifact pattern="http://10.138.0.3:12359/artifactory/ivy-dev/[organization]/[module]/[revision]/[type]s/[module](-[classifier])-[revision].[ext]" />
-        <ivy pattern="http://10.138.0.3:12359/artifactory/ivy-dev-local/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
-      </url>
-   <url name="public" m2compatible="true">
-        <artifact pattern="http://10.138.0.3:12359/artifactory/ivy-release-local/[organization]/[module]/[revision]/[type]s/[module](-[classifier])-[revision].[ext]" />
-        <ivy pattern="http://10.138.0.3:12359/artifactory/ivy-dev-local/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
+        <ivy pattern="http://10.138.0.3:12359/artifactory/ivy-dev/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
       </url>
    </chain>
   </resolvers>
