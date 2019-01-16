@@ -5,7 +5,11 @@
   <credentials host="10.138.0.3" realm="Artifactory Realm" username="admin" passwd="password" />
   <resolvers>
     <chain name="main">
-      <url name="public" m2compatible="false">
+   <url name="public" m2compatible="false">
+        <ivy pattern="http://10.138.0.3:12359/artifactory/ivy-dev-local/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
+	<artifact pattern="http://10.138.0.3:12359/artifactory/ivy-dev-local/[organization]/[module]/[revision]/[type]s/[module](-[classifier])-[revision].[ext]" />
+      </url>   
+   <url name="public" m2compatible="false">
         <ivy pattern="http://10.138.0.3:12359/artifactory/ivy-dev/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
 	<artifact pattern="http://10.138.0.3:12359/artifactory/ivy-dev/[organization]/[module]/[revision]/[type]s/[module](-[classifier])-[revision].[ext]" />
       </url>
