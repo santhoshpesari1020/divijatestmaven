@@ -2,7 +2,7 @@
 <ivy-settings>
   <settings defaultResolver="main" />
   <!--Authentication required for publishing (deployment). 'Artifactory Realm' is the realm used by Artifactory so don't change it.-->
-  <credentials host="localhost" realm="Artifactory Realm" username="admin" passwd="password" />
+  <credentials host="10.138.0.3" realm="Artifactory Realm" username="admin" passwd="password" />
   <resolvers>
     <chain name="main">
       <filesystem name="local" checkmodified="true" validate="true">
