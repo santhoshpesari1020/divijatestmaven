@@ -23,6 +23,5 @@
         status="integration"/>
     <dependencies>
       <dependency name="version" rev="latest.integration" conf="default" />
-      <dependency name="list" rev="latest.integration" conf="default->core" />
     </dependencies>
 </ivy-module>
