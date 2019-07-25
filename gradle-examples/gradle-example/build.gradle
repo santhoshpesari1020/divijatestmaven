@@ -34,7 +34,7 @@ allprojects {
   status = 'Integration'
   repositories {
   	maven {
-        url "http://localhost:8081/artifactory/jcenter" // The Artifactory (preferably virtual) repository to resolve from
+        url "http://10.128.1.38:8081/artifactory/jcenter" // The Artifactory (preferably virtual) repository to resolve from
         credentials {
             username "${artifactory_user}"
             password "${artifactory_password}"
