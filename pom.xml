@@ -8,9 +8,9 @@
 
     <parent>
 
-        <artifactId>REMOVED</artifactId>
+        <artifactId>test</artifactId>
 
-        <groupId>REMOVED.com</groupId>
+        <groupId>com.example</groupId>
 
         <version>1.0</version>
 
