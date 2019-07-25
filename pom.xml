@@ -6,16 +6,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-
-        <artifactId>test</artifactId>
-
-        <groupId>com.example</groupId>
-
-        <version>1.0</version>
-
-    </parent>
-
     <groupId>com.wellsfargo.ejontest</groupId>
 
     <artifactId>helloWorldMaven</artifactId>
