@@ -82,7 +82,7 @@ configurations {
 }
 
 artifactory {
-  contextUrl = 'http://localhost:8081/artifactory'
+  contextUrl = 'http://10.138.0.3:12094/artifactory'
   publish {
     repository {
       repoKey = 'libs-snapshot-local' // The Artifactory repository key to publish to
